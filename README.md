@@ -1,7 +1,7 @@
 <!--
 This README is the template for every webservco component. Fill it in when you create a component from the skeleton.
 
-The clone workflow already swaps `component-skeleton` for the real name. Replace the _italic_ placeholders by hand, drop any (optional) section that doesn't apply, then delete this comment.
+The clone workflow already replaces the skeleton name with the real one. Replace the _italic_ placeholders by hand, drop any (optional) section that doesn't apply, then delete this comment.
 
 Everything lives in this file, no docs folder. Around 100 lines is plenty, and when the reader needs more, link to the source file.
 
