@@ -5,12 +5,18 @@ The clone workflow already replaces the skeleton name with the real one. Replace
 
 Everything lives in this file, no docs folder. Around 100 lines is plenty, and when the reader needs more, link to the source file.
 
-The reader is wiring the component into an app by hand, the way webservco/sandbox does it. Use real class names and put the interface in a comment above each object.
+The reader is wiring the component into an app by hand, the way the webservco/sandbox project does it. Use real class names for the component and put the interface in a comment above each object. Give app-specific classes generic names (`ExampleCommand`, not the sandbox's `ImportCommand`). When you mention the sandbox, write "the `webservco/sandbox` project". The only link to it is in the description.
+
+Keep the first description line (the general sentence and the sandbox link) as it is. On its own line below it, write one sentence about what the component does. For `description` in composer.json, use "A PHP component/library." followed by that sentence.
 
 Leave the version out of the install command. Composer picks the current major, while a hardcoded constraint goes stale (http-client still says "^0").
 -->
 
 # webservco/component-skeleton
+
+> **Note:** This is a template for creating new components. Delete this note when implementing, and the hidden comment at the start of the file.
+
+A PHP component/library. Please see [webservco/sandbox](https://webservco.github.io/sandbox/) for an example project using these types of components.
 
 _What it does, in one sentence._
 
