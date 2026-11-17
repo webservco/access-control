@@ -9,7 +9,7 @@ The reader is wiring the component into an app by hand, the way the webservco/sa
 
 Keep the first description line (the general sentence and the sandbox link) as it is. On its own line below it, write one sentence about what the component does. For `description` in composer.json, use "A PHP component/library." followed by that sentence.
 
-Leave the version out of the install command. Composer picks the current major, while a hardcoded constraint goes stale (http-client still says "^0").
+Leave the version out of the install command. Composer picks the current major, while a hardcoded constraint goes stale.
 -->
 
 # webservco/component-skeleton
