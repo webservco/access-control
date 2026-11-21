@@ -1,4 +1,4 @@
-name: component-skeleton
+name: access-control
 type: php
 docroot: public
 #php_version: "8.3"
