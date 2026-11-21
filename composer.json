@@ -20,7 +20,7 @@
             "dealerdirect/phpcodesniffer-composer-installer": true
         }
     },
-    "description" : "A PHP component/library.",
+    "description" : "A PHP component/library. Roles, feature flags and usage limits per user, with access levels, per-user overrides and counters in fixed UTC windows.",
     "homepage" : "https://webserv.co",
     "keywords" : [
         "component",
@@ -29,7 +29,10 @@
     "license" : "MIT",
     "name" : "webservco/access-control",
     "require": {
-        "php" : "^8.4"
+        "php" : "^8.4",
+        "psr/clock" : "^1",
+        "webservco/data" : "^2",
+        "webservco/database" : "^2"
     },
     "require-dev": {
         "pds/skeleton": "^1",
